@@ -1,5 +1,5 @@
 
-
+Django app
 
 
 Custom API Key Authentication:
@@ -15,11 +15,15 @@ Key: Paste the copied key.
 Click Add SSH Key.
 ssh -T git@github.com
 
-
+git remote -v
 
 git remote set-url origin git@github.com:your-username/django_project.git
+git config --global user.name "Rinu B"
+git config --global user.email "rinubronic@gmail.com"
+git config --global --list
 
-git remote -v
+
+
 
 
 git push -u origin master
