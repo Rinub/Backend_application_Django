@@ -15,6 +15,9 @@ Key: Paste the copied key.
 Click Add SSH Key.
 ssh -T git@github.com
 
+
+
+######################
 git init
 git add .
 git commit -m "Initial commit - Django project"
