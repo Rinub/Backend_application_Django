@@ -1,0 +1,12 @@
+Django>=5.1
+djangorestframework>=3.14
+gunicorn>=21.2  # Required for production
+openpyxl>=3.1.2  # For Excel file processing
+psycopg2>=2.9.9  # PostgreSQL support
+mysqlclient>=2.2.0  # MySQL support
+whitenoise>=6.6.0  # Serve static files in production
+django-environ>=0.11.2  # Manage environment variables
+requests>=2.31.0  # Making HTTP requests
+celery>=5.3.6  # Task queue for background jobs
+redis>=5.0.1  # Required for Celery (if using Redis broker)
+drf-yasg>=1.21.7  # API documentation with Swagger/OpenAPI
