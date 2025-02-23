@@ -41,3 +41,5 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub
+          SONAR_PROJECT_KEY: Rinub_Backend_application_Django  # Replace with your project key
+          SONAR_ORGANIZATION: Rinub  # Replace with your organization key
