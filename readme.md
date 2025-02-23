@@ -15,20 +15,20 @@ Key: Paste the copied key.
 Click Add SSH Key.
 ssh -T git@github.com
 
-git remote -v
-
+git init
+git add .
+git commit -m "Initial commit - Django project"
 git remote set-url origin git@github.com:your-username/django_project.git
+git remote -v
 git config --global user.name "Rinu B"
 git config --global user.email "rinubronic@gmail.com"
 git config --global --list
-
-
-
-
-
 git push -u origin master
+git branch -m feature/dev
+git branch
+git add .
+git status
+git commit -m "Initial commit - Django Backend Project"...
+git push origin feature/dev
 
 
-
-
-git remote set-url origin git@github.com:Rinub/Backend_application_Django.git
